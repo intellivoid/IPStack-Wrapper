@@ -38,13 +38,20 @@
         private $Host;
 
         /**
+         * @var bool
+         */
+        private $UseSSL;
+
+        /**
          * IPStack constructor.
          * @param string $access_key
+         * @param bool $ssl
          * @param string $host
          */
-        public function __construct(string $access_key, string $host = "api.ipstack.com")
+        public function __construct(string $access_key, bool $ssl = false, string $host = "api.ipstack.com")
         {
             $this->Host = $host;
+            $this->UseSSL = $ssl;
             $this->AccessKey = $access_key;
         }
 
@@ -57,20 +64,25 @@
          */
         public function lookup(string $ip_address): IPAddress
         {
-            $ch = curl_init('https://' . $this->Host . '/'. $ip_address . '?access_key='. $this->AccessKey);
+            $Protocol = 'http';
+            if($this->UseSSL == true)
+            {
+                $Protocol = 'https';
+            }
+            $ch = curl_init($Protocol . '://' . $this->Host . '/'. $ip_address . '?access_key='. $this->AccessKey);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-            $json = curl_exec($ch);
+            $Results = json_decode(curl_exec($ch), true);
             curl_close($ch);
 
-            if(isset($json['success']))
+            if(isset($Results['success']))
             {
-                if($json['success'] == false)
+                if($Results['success'] == false)
                 {
-                    throw new LookupException($json['error']['info'], (int)$json['error']['code']);
+                    throw new LookupException($Results['error']['info'], (int)$Results['error']['code']);
                 }
             }
 
-           return IPAddress::fromArray(json_decode($json, true));
+           return IPAddress::fromArray($Results);
         }
     }

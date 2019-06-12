@@ -56,7 +56,7 @@
 
             if(isset($data['code']))
             {
-                $LanguageObject->Code = (string)data['code'];
+                $LanguageObject->Code = (string)$data['code'];
             }
 
             if(isset($data['name']))
