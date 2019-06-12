@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe325938-7887-41b5-adc3-f363ad71c8c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/IPStack API Wrapper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Netkas.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Abstracts/CrawlerType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Abstracts/ProxyType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Abstracts/ThreatLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Abstracts/ThreatType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/IPStack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/Connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/Currency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/Language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/Location.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/Security.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IPStack/Objects/Timezone.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IPStack/Objects/Security.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/IPStack/Objects/Security.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,15 +16,21 @@
     <favorites_list name="IPStack-Wrapper" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Security.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IPStack/IPStack.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
-              <folding>
-                <element signature="e#44#78#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="167" column="40" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -59,20 +50,20 @@
         <option value="$PROJECT_DIR$/src/IPStack/Objects/Timezone.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Objects/Currency.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Objects/Connection.php" />
-        <option value="$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Abstracts/ThreatLevel.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Abstracts/ThreatType.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Abstracts/ProxyType.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Abstracts/CrawlerType.php" />
         <option value="$PROJECT_DIR$/src/IPStack/Objects/Security.php" />
+        <option value="$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-132" />
-    <option name="y" value="106" />
-    <option name="width" value="1366" />
-    <option name="height" value="740" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="25" />
+    <option name="y" value="27" />
+    <option name="width" value="1318" />
+    <option name="height" value="690" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -80,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,14 +108,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenBlu-Web-Application" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -150,25 +141,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560292936361</updated>
-      <workItem from="1560292937865" duration="3757000" />
+      <workItem from="1560292937865" duration="3813000" />
+      <workItem from="1560367250922" duration="4618000" />
+      <workItem from="1560376463868" duration="1661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3757000" />
+    <option name="totallyTimeSpent" value="10092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="25" y="27" width="1318" height="690" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" sideWeight="0.5017007" side_tool="true" weight="0.24659607" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.24659607" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5017007" side_tool="true" visible="true" weight="0.24659607" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942748" visible="true" weight="0.19554849" />
+      <window_info id="Structure" order="1" sideWeight="0.5057252" side_tool="true" visible="true" weight="0.19554849" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017007" side_tool="true" weight="0.24659607" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -176,26 +164,22 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IPStack/Results/LookupResults.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/Results/LookupResults.php" />
     <entry file="file://$PROJECT_DIR$/src/IPStack/Abstracts/ThreatLevel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -210,41 +194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPStack/IPStack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Timezone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Location.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Language.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Currency.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -252,9 +201,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrawlerType.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CrawlerType.php" />
     <entry file="file://$PROJECT_DIR$/src/IPStack/Abstracts/CrawlerType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
@@ -269,13 +216,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Location.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Security.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        <state relative-caret-position="55">
+          <caret line="83" column="52" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="52" />
           <folding>
             <element signature="e#44#78#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Timezone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="59" column="12" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/Language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/IPStack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IPStack/Objects/IPAddress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="167" column="40" selection-start-line="167" selection-start-column="40" selection-end-line="167" selection-end-column="40" />
         </state>
       </provider>
     </entry>

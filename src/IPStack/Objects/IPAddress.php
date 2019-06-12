@@ -134,4 +134,156 @@
          * @var Security
          */
         public $Security;
+
+        /**
+         * Creates array from object
+         *
+         * @return array
+         */
+        public function toArray(): array
+        {
+            return array(
+                'ip' => $this->IP,
+                'host_name' => $this->Hostname,
+                'type' => $this->Type,
+                'continent_code' => $this->ContinentCode,
+                'continent_name' => $this->ContinentName,
+                'country_code' => $this->CountryCode,
+                'country_name' => $this->CountryName,
+                'region_code' => $this->RegionCode,
+                'region_name' => $this->RegionName,
+                'city' => $this->City,
+                'zip' => $this->Zip,
+                'latitude' => $this->Latitude,
+                'longitude' => $this->Longitude,
+                'location' => $this->Location->toArray(),
+                'timezone' => $this->Timezone->toArray(),
+                'currency' => $this->Currency->toArray(),
+                'connection' => $this->Connection->toArray(),
+                'security' => $this->Security->toArray()
+            );
+        }
+
+        /**
+         * Creates the object from array
+         *
+         * @param array $data
+         * @return IPAddress
+         */
+        public static function fromArray(array $data): IPAddress
+        {
+            $IPAddressObject = new IPAddress();
+
+            if(isset($data['ip']))
+            {
+                $IPAddressObject->IP = $data['ip'];
+            }
+
+            if(isset($data['hostname']))
+            {
+                $IPAddressObject->Hostname = $data['hostname'];
+            }
+
+            if(isset($data['type']))
+            {
+                $IPAddressObject->Type = $data['type'];
+            }
+
+            if(isset($data['continent_code']))
+            {
+                $IPAddressObject->ContinentCode = $data['continent_code'];
+            }
+
+            if(isset($data['continent_name']))
+            {
+                $IPAddressObject->ContinentName = $data['continent_name'];
+            }
+
+            if(isset($data['country_code']))
+            {
+                $IPAddressObject->CountryCode = $data['country_code'];
+            }
+
+            if(isset($data['country_name']))
+            {
+                $IPAddressObject->CountryName = $data['country_name'];
+            }
+
+            if(isset($data['region_code']))
+            {
+                $IPAddressObject->RegionCode = $data['region_code'];
+            }
+
+            if(isset($data['region_name']))
+            {
+                $IPAddressObject->RegionName = $data['region_name'];
+            }
+
+            if(isset($data['city']))
+            {
+                $IPAddressObject->City = $data['city'];
+            }
+
+            if(isset($data['zip']))
+            {
+                $IPAddressObject->Zip = $data['zip'];
+            }
+
+            if(isset($data['latitude']))
+            {
+                $IPAddressObject->Latitude = $data['latitude'];
+            }
+
+            if(isset($data['longitude']))
+            {
+                $IPAddressObject->Longitude = $data['longitude'];
+            }
+
+            if(isset($data['location']))
+            {
+                $IPAddressObject->Location = Location::fromArray($data['location']);
+            }
+            else
+            {
+                $IPAddressObject->Location = new Location();
+            }
+
+            if(isset($data['timezone']))
+            {
+                $IPAddressObject->Timezone = Timezone::fromArray($data['timezone']);
+            }
+            else
+            {
+                $IPAddressObject->Timezone = new Timezone();
+            }
+
+            if(isset($data['currency']))
+            {
+                $IPAddressObject->Currency = Currency::fromArray($data['currency']);
+            }
+            else
+            {
+                $IPAddressObject->Currency = new Currency();
+            }
+
+            if(isset($data['connection']))
+            {
+                $IPAddressObject->Connection = Connection::fromArray($data['connection']);
+            }
+            else
+            {
+                $IPAddressObject->Connection = new Connection();
+            }
+
+            if(isset($data['security']))
+            {
+                $IPAddressObject->Security = Security::fromArray($data['security']);
+            }
+            else
+            {
+                $IPAddressObject->Security = new Security();
+            }
+
+            return $IPAddressObject;
+        }
     }
