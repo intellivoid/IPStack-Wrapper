@@ -12,7 +12,7 @@
         /**
          * Returns the unique geoname identifier in accordance with the Geonames Registry.
          *
-         * @var string
+         * @var int
          */
         public $GeoNameID;
 

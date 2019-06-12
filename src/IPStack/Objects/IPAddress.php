@@ -89,14 +89,14 @@
         /**
          * 	Returns the latitude value associated with the IP.
          *
-         * @var string
+         * @var float
          */
         public $Latitude;
 
         /**
          * Returns the longitude value associated with the IP.
          *
-         * @var string
+         * @var float
          */
         public $Longitude;
 
