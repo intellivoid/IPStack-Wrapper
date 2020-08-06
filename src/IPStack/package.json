@@ -1,0 +1,75 @@
+{
+    "package": {
+        "package_name": "net.intellivoid.ipstack",
+        "name": "IPStack API Wrapper Library",
+        "version": "1.0.0.0",
+        "author": "Zi Xing Narrakas",
+        "organization": "Intellivoid",
+        "description": "Simple API Library API for IPStack",
+        "url": "https://github.com/intellivoid/IPStack-Wrapper",
+        "dependencies": [],
+        "configuration": {
+            "autoload_method": "indexed",
+            "main": null,
+            "post_installation": [],
+            "pre_installation": []
+        }
+    },
+    "components": [
+        {
+            "required": true,
+            "file": "Abstracts/CrawlerType.php"
+        },
+        {
+            "required": true,
+            "file": "Abstracts/ProxyType.php"
+        },
+        {
+            "required": true,
+            "file": "Abstracts/ThreatLevel.php"
+        },
+        {
+            "required": true,
+            "file": "Abstracts/ThreatType.php"
+        },
+        {
+            "required": true,
+            "file": "Exceptions/LookupException.php"
+        },
+        {
+            "required": true,
+            "file": "IPStack.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Connection.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Currency.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/IPAddress.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Language.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Location.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Security.php"
+        },
+        {
+            "required": true,
+            "file": "Objects/Timezone.php"
+        }
+    ],
+    "files": [
+        "ipstack.json"
+    ]
+}
